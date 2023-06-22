@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-palmpay-dev-160041-authRole",
+      "UnauthRoleArn": "arn:aws:iam::171330557233:role/amplify-palmpay-dev-160041-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::171330557233:role/amplify-palmpay-dev-160041-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-palmpay-dev-160041-deployment",
+      "UnauthRoleName": "amplify-palmpay-dev-160041-unauthRole",
+      "StackName": "amplify-palmpay-dev-160041",
+      "StackId": "arn:aws:cloudformation:ap-south-1:171330557233:stack/amplify-palmpay-dev-160041/d99c6820-10e7-11ee-afb8-0aa9074b3696",
+      "AmplifyAppId": "d3smma732uugz0"
+    },
+    "categories": {
+      "function": {
+        "palmpayuserfunction": {
+          "deploymentBucketName": "amplify-palmpay-dev-160041-deployment",
+          "s3Key": "amplify-builds/palmpayuserfunction-74412b6a417932576f66-build.zip"
+        },
+        "palmpayimagelambda": {
+          "deploymentBucketName": "amplify-palmpay-dev-160041-deployment",
+          "s3Key": "amplify-builds/palmpayimagelambda-596c4b66526b37756359-build.zip"
+        }
+      },
+      "api": {
+        "palmpay2": {}
+      },
+      "auth": {
+        "palmpayeb6b13c0": {}
+      },
+      "storage": {
+        "palmstorage": {}
+      }
+    }
+  }
+}

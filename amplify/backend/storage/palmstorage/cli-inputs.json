@@ -1,0 +1,18 @@
+{
+  "resourceName": "palmstorage",
+  "policyUUID": "893c0f26",
+  "bucketName": "palmstorageimage",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
